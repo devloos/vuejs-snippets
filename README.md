@@ -15,7 +15,7 @@ https://github.com/devloos/vue-snippets/blob/594748025111933bff35451e2ec1dc85a47
 
 ## Installation
 
-- Go here [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=devloos.vue-snippets)
+- Go here [vscode extensions marketplace](https://marketplace.visualstudio.com/items?itemName=devloos.vue-snippets)
 
 You can enable tab completion (recommended) by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": "onlySnippets"` to your personal settings
 

@@ -1,65 +1,104 @@
-# vue-snippets README
+# Vue js Snippets
 
-This is the README for your extension "vue-snippets". After writing up a brief description, we recommend including the following sections.
+![vue-snippet-hero](assets/hero.jpg)
 
-## Features
+## Description
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Short and simple vue snippets!
 
-For example if there is an image subfolder under your extension project workspace:
+**This project still needs support for nuxt, vite config, vue 2, vue router, and pinia.**
 
-\!\[feature X\]\(images/feature-x.png\)
+- Contributions are welcome [github](https://github.com/devloos/vue-snippets)
+- If you are contributing a snippet, please be sure to add the documentation for it in the tables in the README, the pull request cannot be accepted without this addition. Thanks!
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![vue-snippet-demo](assets/snippets-demo.mp4)
 
-## Requirements
+## Installation
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Go here [vscode Extensions Marketplace](https://marketplace.visualstudio.com/items?itemName=devloos.vue-snippets)
 
-## Extension Settings
+You can enable tab completion (recommended) by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": "onlySnippets"` to your personal settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Vue
 
-For example:
+| Snippet            | Purpose                                                      |
+| ------------------ | ------------------------------------------------------------ |
+| `vbase`            | Single file component base with SCSS                         |
+| `vbase-3`          | Single File component Composition API with SCSS              |
+| `vbase-3-setup`    | Single File component setup Composition API with SCSS        |
+| `vbase-3-reactive` | Single File component Composition API with Reactive and SCSS |
+| `vbase-css`        | Single file component base with CSS                          |
+| `vbase-pcss`       | Single file component base with PostCSS                      |
+| `vbase-styl`       | Single file component base with Stylus                       |
+| `vbase-ts`         | Single file component base with Typescript                   |
+| `vbase-ts-class`   | Single file component base with Typescript Class Format      |
+| `vbase-3-ts`       | Single File component Composition API with Typescript        |
+| `vbase-3-ts-setup` | Single File component setup Composition API with Typescript  |
+| `vbase-ns`         | Single file component with no styles                         |
+| `vbase-sass`       | Single file component base with SASS                         |
+| `vbase-less`       | Single file component base with LESS                         |
 
-This extension contributes the following settings:
+### Template
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+| Snippet           | Purpose                             |
+| ----------------- | ----------------------------------- |
+| `vfor`            | v-for directive                     |
+| `vmodel`          | Semantic v-model directive          |
+| `von`             | v-on click handler with arguments   |
+| `vslot-named`     | Named slot                          |
+| `vel-props`       | Component element with props        |
+| `vsrc`            | Image src binding                   |
+| `vstyle`          | Inline style binding                |
+| `vstyle-obj`      | Inline style binding with objects   |
+| `vclass`          | Class binding                       |
+| `vclass-obj`      | Class binding with objects          |
+| `vclass-obj-mult` | Multiple conditional class bindings |
+| `vanim`           | Transition component with JS hooks  |
+| `vnuxtl`          | Nuxt Routing Link                   |
+| `vroutename`      | router-link Named Routing           |
+| `vroutenameparam` | router-link Named with Parameters   |
+| `vroutepath`      | router-link Path Routing Link       |
+| `vemit-child`     | Emit event from child component     |
+| `vemit-parent`    | Emit event to parent component      |
 
-## Known Issues
+### Script
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+| Snippet           | Purpose                                                                  |
+| ----------------- | ------------------------------------------------------------------------ |
+| `vdata`           | Component data as a function                                             |
+| `vmethod`         | Vue method                                                               |
+| `vcomputed`       | Vue computed property                                                    |
+| `vwatcher`        | Vue watcher with new and old value args                                  |
+| `vbeforecreate`   | beforeCreate lifecycle method                                            |
+| `vcreated`        | created lifecycle method                                                 |
+| `vbeforemount`    | beforeMount lifecycle method                                             |
+| `vmounted`        | vmounted lifecycle method                                                |
+| `vbeforeupdate`   | beforeUpdate lifecycle method                                            |
+| `vupdated`        | updated lifecycle method                                                 |
+| `vbeforedestroy`  | beforeDestroy lifecycle method                                           |
+| `vdestroyed`      | destroyed lifecycle method                                               |
+| `vprops`          | Props with type and default                                              |
+| `vimport`         | Import one component into another                                        |
+| `vimport-dynamic` | Import one component that should be lazy loaded by webpack               |
+| `vcomponents`     | Import one component into another within the export statement            |
+| `vimport-export`  | Import one component into another and use it within the export statement |
+| `vmapstate`       | import mapState from Vuex into vue component component                   |
+| `vmapgetters`     | import mapGetters from Vuex into vue component component                 |
+| `vmapmutations`   | import mapMutations from Vuex into vue component component               |
+| `vmapactions`     | import mapActions from Vuex into vue component component                 |
+| `vfilter`         | Vue filter                                                               |
+| `vmixin`          | Create a Vue Mixin                                                       |
+| `vmixin-use`      | Bring a mixin into a component to use                                    |
+| `vc-direct`       | Vue create a custom directive                                            |
+| `vimport-lib`     | Import a library                                                         |
+| `vimport-gsap`    | Import GreenSock                                                         |
+| `vanimhook-js`    | Using the Transition component JS hooks in methods                       |
+| `vcommit`         | Commit to Vuex store in methods for mutation                             |
+| `vdispatch`       | Dispatch to Vuex store in methods for action                             |
+| `vtest`           | A simple unit testing component                                          |
 
-## Release Notes
+### 0.1.0
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Initial release of vue-snippets
 
 **Enjoy!**

@@ -18,7 +18,7 @@
   },
   "vuescript": {
     "prefix": "vuescript",
-    "body": ["<script setup>", "\t$1", "</script>"],
+    "body": ["<script setup>", "$1", "</script>"],
     "description": "script element"
   },
   "vuetemplate": {
@@ -28,7 +28,7 @@
   },
   "vuestyle": {
     "prefix": "vuestyle",
-    "body": ["<style lang=\"$1\">", "\t$2", "</style>"],
+    "body": ["<style lang=\"$1\">", "$2", "</style>"],
     "description": "style element"
   },
   "vuecomputed": {

@@ -30,8 +30,11 @@ Short and simple vue snippets!
 
 | Snippet             | Purpose                       |
 | ------------------- | ----------------------------- |
+| `vuedefineprops`    | define properties             |
 | `vuecomputed`       | computed property             |
 | `vuewatch`          | watcher                       |
+| `vueprovide`        | vue provide                   |
+| `vueinject`         | vue inject                    |
 | `vueonmounted`      | mounted lifecycle method      |
 | `vueonbeforemount`  | beforeMount lifecycle method  |
 | `vueonbeforeupdate` | beforeUpdate lifecycle method |
@@ -54,6 +57,7 @@ Short and simple vue snippets!
 | `vbind`   | binding onto attributes           |
 | `vpre`    | v-pre                             |
 | `vcloak`  | v-cloak                           |
+| `vmemo`   | memoize array                     |
 | `vonce`   | evaluate only once                |
 | `vkey`    | key                               |
 | `vref`    | reference to a dom element        |

@@ -31,6 +31,11 @@
     "body": ["<style lang=\"$1\">", "$2", "</style>"],
     "description": "style element"
   },
+  "vuedefineprops": {
+    "prefix": "vuedefineprops",
+    "body": ["const $1 = defineProps({", "\t$2", "});"],
+    "description": "define properties"
+  },
   "vuecomputed": {
     "prefix": "vuecomputed",
     "body": ["const $1 = computed$2(() => {", "\t$3", "});"],
@@ -40,6 +45,16 @@
     "prefix": "vuewatch",
     "body": ["watch$1(($2) => {", "\t$3", "});"],
     "description": "Watch function"
+  },
+  "vueprovide": {
+    "prefix": "vueprovide",
+    "body": ["provide('$1', $2);"],
+    "description": "Vue provide"
+  },
+  "vueinject": {
+    "prefix": "vueinject",
+    "body": ["const $1 = inject('$2');"],
+    "description": "Vue inject"
   },
   "vueonmounted": {
     "prefix": "vueonmounted",

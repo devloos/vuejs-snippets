@@ -49,6 +49,11 @@
     "body": ["v-model=\"$1\""],
     "description": "Expects: varies based on value of form inputs element or output of components"
   },
+  "v-memo": {
+    "prefix": "vmemo",
+    "body": ["v-memo=\"$1\""],
+    "description": "Does not expect expression"
+  },
   "v-pre": {
     "prefix": "vpre",
     "body": ["v-pre"],

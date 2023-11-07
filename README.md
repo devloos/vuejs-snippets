@@ -21,45 +21,12 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue
 
-| Snippet            | Purpose                                                      |
-| ------------------ | ------------------------------------------------------------ |
-| `vbase`            | Single file component base with SCSS                         |
-| `vbase-3`          | Single File component Composition API with SCSS              |
-| `vbase-3-setup`    | Single File component setup Composition API with SCSS        |
-| `vbase-3-reactive` | Single File component Composition API with Reactive and SCSS |
-| `vbase-css`        | Single file component base with CSS                          |
-| `vbase-pcss`       | Single file component base with PostCSS                      |
-| `vbase-styl`       | Single file component base with Stylus                       |
-| `vbase-ts`         | Single file component base with Typescript                   |
-| `vbase-ts-class`   | Single file component base with Typescript Class Format      |
-| `vbase-3-ts`       | Single File component Composition API with Typescript        |
-| `vbase-3-ts-setup` | Single File component setup Composition API with Typescript  |
-| `vbase-ns`         | Single file component with no styles                         |
-| `vbase-sass`       | Single file component base with SASS                         |
-| `vbase-less`       | Single file component base with LESS                         |
-
-### Template
-
-| Snippet           | Purpose                             |
-| ----------------- | ----------------------------------- |
-| `vfor`            | v-for directive                     |
-| `vmodel`          | Semantic v-model directive          |
-| `von`             | v-on click handler with arguments   |
-| `vslot-named`     | Named slot                          |
-| `vel-props`       | Component element with props        |
-| `vsrc`            | Image src binding                   |
-| `vstyle`          | Inline style binding                |
-| `vstyle-obj`      | Inline style binding with objects   |
-| `vclass`          | Class binding                       |
-| `vclass-obj`      | Class binding with objects          |
-| `vclass-obj-mult` | Multiple conditional class bindings |
-| `vanim`           | Transition component with JS hooks  |
-| `vnuxtl`          | Nuxt Routing Link                   |
-| `vroutename`      | router-link Named Routing           |
-| `vroutenameparam` | router-link Named with Parameters   |
-| `vroutepath`      | router-link Path Routing Link       |
-| `vemit-child`     | Emit event from child component     |
-| `vemit-parent`    | Emit event to parent component      |
+| Snippet       | Purpose                                                |
+| ------------- | ------------------------------------------------------ |
+| `vueinit`     | Single file component with script, template, and style |
+| `vuescript`   | vue script tag                                         |
+| `vuetemplate` | vue template tag                                       |
+| `vuestyle`    | vue style tag                                          |
 
 ### Script
 
@@ -96,6 +63,29 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vcommit`         | Commit to Vuex store in methods for mutation                             |
 | `vdispatch`       | Dispatch to Vuex store in methods for action                             |
 | `vtest`           | A simple unit testing component                                          |
+
+### Template
+
+| Snippet           | Purpose                             |
+| ----------------- | ----------------------------------- |
+| `vfor`            | v-for directive                     |
+| `vmodel`          | Semantic v-model directive          |
+| `von`             | v-on click handler with arguments   |
+| `vslot-named`     | Named slot                          |
+| `vel-props`       | Component element with props        |
+| `vsrc`            | Image src binding                   |
+| `vstyle`          | Inline style binding                |
+| `vstyle-obj`      | Inline style binding with objects   |
+| `vclass`          | Class binding                       |
+| `vclass-obj`      | Class binding with objects          |
+| `vclass-obj-mult` | Multiple conditional class bindings |
+| `vanim`           | Transition component with JS hooks  |
+| `vnuxtl`          | Nuxt Routing Link                   |
+| `vroutename`      | router-link Named Routing           |
+| `vroutenameparam` | router-link Named with Parameters   |
+| `vroutepath`      | router-link Path Routing Link       |
+| `vemit-child`     | Emit event from child component     |
+| `vemit-parent`    | Emit event to parent component      |
 
 ### 0.1.0
 

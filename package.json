@@ -1,7 +1,7 @@
 {
   "name": "vuejs-snippets",
-  "displayName": "Vue js Snippets",
-  "description": "Vue js Snippets",
+  "displayName": "Vuejs Snippets",
+  "description": "Vuejs Snippets",
   "author": "devlos",
   "publisher": "devlos",
   "icon": "assets/logo.png",
@@ -12,7 +12,9 @@
   "keywords": [
     "snippet",
     "vue",
-    "vue 3"
+    "vue 3",
+    "vuejs",
+    "vuejs snippets"
   ],
   "categories": [
     "Programming Languages",

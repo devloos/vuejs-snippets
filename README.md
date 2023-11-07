@@ -1,4 +1,4 @@
-# Vue js Snippets
+# Vuejs Snippets
 
 ![vue-snippet-hero](assets/hero.jpg)
 
@@ -8,14 +8,14 @@ Short and simple vue snippets!
 
 **This project still needs support for nuxt, vite config, vue 2, vue router, and pinia.**
 
-- Contributions are welcome [github](https://github.com/devloos/vue-snippets)
+- Contributions are welcome [github](https://github.com/devloos/vuejs-snippets)
 - If you are contributing a snippet, please be sure to add the documentation for it in the tables in the README, the pull request cannot be accepted without this addition. Thanks!
 
 https://github.com/devloos/vue-snippets/assets/58356571/120f68f1-2017-47ce-baf9-226af4349b3c
 
 ## Installation
 
-- Go here [vscode extensions marketplace](https://marketplace.visualstudio.com/items?itemName=devloos.vue-snippets)
+- Go here [vscode extensions marketplace](https://marketplace.visualstudio.com/items?itemName=devlos.vuejs-snippets)
 
 You can enable tab completion (recommended) by opening `Code > Preferences > Settings` (on a Mac) and applying `"editor.tabCompletion": "onlySnippets"` to your personal settings
 
@@ -62,6 +62,6 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### 0.1.0
 
-Initial release of vue-snippets
+Initial release of vuejs-snippets
 
 **Enjoy!**

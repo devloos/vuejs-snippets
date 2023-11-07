@@ -1,5 +1,5 @@
 {
-  "name": "vue-snippets",
+  "name": "vuejs-snippets",
   "displayName": "Vue js Snippets",
   "description": "Vue js Snippets",
   "author": "devlos",
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/devloos/vue-snippets"
+    "url": "https://github.com/devloos/vuejs-snippets"
   },
   "bugs": {
-    "url": "https://github.com/devloos/vue-snippets/issues",
+    "url": "https://github.com/devloos/vuejs-snippets/issues",
     "email": "18aguilerac@gmail.com"
   },
   "contributes": {

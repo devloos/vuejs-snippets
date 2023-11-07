@@ -11,7 +11,7 @@ Short and simple vue snippets!
 - Contributions are welcome [github](https://github.com/devloos/vuejs-snippets)
 - If you are contributing a snippet, please be sure to add the documentation for it in the tables in the README, the pull request cannot be accepted without this addition. Thanks!
 
-<video src="https://github.com/devloos/vuejs-snippets/assets/58356571/120f68f1-2017-47ce-baf9-226af4349b3c">
+<video src="https://github.com/devloos/vuejs-snippets/assets/58356571/120f68f1-2017-47ce-baf9-226af4349b3c"></video>
 
 ## Installation
 

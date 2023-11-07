@@ -1,9 +1,7 @@
-# Change Log
+## [0.4.0]
 
-All notable changes to the "vue-snippets" extension will be documented in this file.
+- Minor change to readme and demo video
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [0.1.0]
 
 - Initial release

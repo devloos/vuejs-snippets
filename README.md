@@ -30,62 +30,35 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Script
 
-| Snippet           | Purpose                                                                  |
-| ----------------- | ------------------------------------------------------------------------ |
-| `vdata`           | Component data as a function                                             |
-| `vmethod`         | Vue method                                                               |
-| `vcomputed`       | Vue computed property                                                    |
-| `vwatcher`        | Vue watcher with new and old value args                                  |
-| `vbeforecreate`   | beforeCreate lifecycle method                                            |
-| `vcreated`        | created lifecycle method                                                 |
-| `vbeforemount`    | beforeMount lifecycle method                                             |
-| `vmounted`        | vmounted lifecycle method                                                |
-| `vbeforeupdate`   | beforeUpdate lifecycle method                                            |
-| `vupdated`        | updated lifecycle method                                                 |
-| `vbeforedestroy`  | beforeDestroy lifecycle method                                           |
-| `vdestroyed`      | destroyed lifecycle method                                               |
-| `vprops`          | Props with type and default                                              |
-| `vimport`         | Import one component into another                                        |
-| `vimport-dynamic` | Import one component that should be lazy loaded by webpack               |
-| `vcomponents`     | Import one component into another within the export statement            |
-| `vimport-export`  | Import one component into another and use it within the export statement |
-| `vmapstate`       | import mapState from Vuex into vue component component                   |
-| `vmapgetters`     | import mapGetters from Vuex into vue component component                 |
-| `vmapmutations`   | import mapMutations from Vuex into vue component component               |
-| `vmapactions`     | import mapActions from Vuex into vue component component                 |
-| `vfilter`         | Vue filter                                                               |
-| `vmixin`          | Create a Vue Mixin                                                       |
-| `vmixin-use`      | Bring a mixin into a component to use                                    |
-| `vc-direct`       | Vue create a custom directive                                            |
-| `vimport-lib`     | Import a library                                                         |
-| `vimport-gsap`    | Import GreenSock                                                         |
-| `vanimhook-js`    | Using the Transition component JS hooks in methods                       |
-| `vcommit`         | Commit to Vuex store in methods for mutation                             |
-| `vdispatch`       | Dispatch to Vuex store in methods for action                             |
-| `vtest`           | A simple unit testing component                                          |
+| Snippet             | Purpose                       |
+| ------------------- | ----------------------------- |
+| `vuecomputed`       | computed property             |
+| `vuewatch`          | watcher                       |
+| `vueonmounted`      | mounted lifecycle method      |
+| `vueonbeforemount`  | beforeMount lifecycle method  |
+| `vueonbeforeupdate` | beforeUpdate lifecycle method |
+| `vueonupdated`      | updated lifecycle method      |
+| `vueonactivated`    | keepalive lifecycle method    |
+| `vueondeactivated`  | keepalive lifecycle method    |
 
 ### Template
 
-| Snippet           | Purpose                             |
-| ----------------- | ----------------------------------- |
-| `vfor`            | v-for directive                     |
-| `vmodel`          | Semantic v-model directive          |
-| `von`             | v-on click handler with arguments   |
-| `vslot-named`     | Named slot                          |
-| `vel-props`       | Component element with props        |
-| `vsrc`            | Image src binding                   |
-| `vstyle`          | Inline style binding                |
-| `vstyle-obj`      | Inline style binding with objects   |
-| `vclass`          | Class binding                       |
-| `vclass-obj`      | Class binding with objects          |
-| `vclass-obj-mult` | Multiple conditional class bindings |
-| `vanim`           | Transition component with JS hooks  |
-| `vnuxtl`          | Nuxt Routing Link                   |
-| `vroutename`      | router-link Named Routing           |
-| `vroutenameparam` | router-link Named with Parameters   |
-| `vroutepath`      | router-link Path Routing Link       |
-| `vemit-child`     | Emit event from child component     |
-| `vemit-parent`    | Emit event to parent component      |
+| Snippet   | Purpose                           |
+| --------- | --------------------------------- |
+| `vfor`    | v-for directive                   |
+| `vmodel`  | Semantic v-model directive        |
+| `von`     | v-on click handler with arguments |
+| `vhtml`   | inserting html                    |
+| `vshow`   | setting element to display one    |
+| `vif`     | removing or adding element to dom |
+| `velseif` | use along side v-if               |
+| `vtext`   | v-text                            |
+| `vbind`   | binding onto attributes           |
+| `vpre`    | v-pre                             |
+| `vcloak`  | v-cloak                           |
+| `vonce`   | evaluate only once                |
+| `vkey`    | key                               |
+| `vref`    | reference to a dom element        |
 
 ### 0.1.0
 

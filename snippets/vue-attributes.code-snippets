@@ -1,0 +1,77 @@
+{
+  "v-text": {
+    "prefix": "vtext",
+    "body": ["v-text=\"$1\""],
+    "description": "v-text"
+  },
+  "v-html": {
+    "prefix": "vhtml",
+    "body": ["v-html='\"$1\""],
+    "description": "v-html"
+  },
+  "v-show": {
+    "prefix": "vshow",
+    "body": ["v-show=\"$1\""],
+    "description": "v-show"
+  },
+  "v-if": {
+    "prefix": "vif",
+    "body": ["v-if=\"$1\""],
+    "description": "v-if"
+  },
+  "v-else-if": {
+    "prefix": "velseif",
+    "body": ["v-else-if=\"$1\""],
+    "description": "Expects: any. previous sibling element must have v-if or v-else-if."
+  },
+  "v-else": {
+    "prefix": "velse",
+    "body": ["v-else"],
+    "description": "Does not expect expression. previous sibling element must have v-if or v-else-if."
+  },
+  "v-for": {
+    "prefix": "vfor",
+    "body": ["v-for=\"$1 in $2\" :key=\"$3\""],
+    "description": "Expects: Array | Object | number | string"
+  },
+  "v-on": {
+    "prefix": "von",
+    "body": ["v-on:$1=\"$2\""],
+    "description": "Expects: Function | Inline Statement"
+  },
+  "v-bind": {
+    "prefix": "vbind",
+    "body": ["v-bind:$1=\"$2\""],
+    "description": "Expects: any (with argument) | Object (without argument)"
+  },
+  "v-model": {
+    "prefix": "vmodel",
+    "body": ["v-model=\"$1\""],
+    "description": "Expects: varies based on value of form inputs element or output of components"
+  },
+  "v-pre": {
+    "prefix": "vpre",
+    "body": ["v-pre"],
+    "description": "Does not expect expression"
+  },
+  "v-cloak": {
+    "prefix": "vcloak",
+    "body": ["v-cloak"],
+    "description": "Does not expect expression"
+  },
+  "v-once": {
+    "prefix": "vonce",
+    "body": ["v-once"],
+    "description": "Does not expect expression"
+  },
+  "key": {
+    "prefix": "key",
+    "body": [":key=\"$1\""],
+    "description": "Expects: string. Children of the same common parent must have unique keys. Duplicate keys will cause render errors."
+  },
+  "ref": {
+    "prefix": "ref",
+    "body": ["ref=\"$1\""],
+    "description": "Expects: string. ref is used to register a reference to an element or a child component. The reference will be registered under the parent component’s $refs object. If used on a plain DOM element, the reference will be that element; if used on a child component, the reference will be component instance."
+  }
+}

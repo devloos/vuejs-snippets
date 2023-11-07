@@ -1,0 +1,74 @@
+{
+  "vueinit": {
+    "prefix": "vueinit",
+    "body": [
+      "<script setup>",
+      "\t$1",
+      "</script>\n",
+      "<template>",
+      "\t<div>",
+      "\t\t$2",
+      "\t</div>",
+      "</template>\n",
+      "<style lang=\"$3\">",
+      "\t$4",
+      "</style>"
+    ],
+    "description": "vue init"
+  },
+  "vuescript": {
+    "prefix": "vuescript",
+    "body": ["<script setup>", "\t$1", "</script>"],
+    "description": "script element"
+  },
+  "vuetemplate": {
+    "prefix": "vuetemplate",
+    "body": ["<template>", "\t<div>", "\t\t$1", "\t</div>", "</template>"],
+    "description": "template element"
+  },
+  "vuestyle": {
+    "prefix": "vuestyle",
+    "body": ["<style lang=\"$1\">", "\t$2", "</style>"],
+    "description": "style element"
+  },
+  "vuecomputed": {
+    "prefix": "vuecomputed",
+    "body": ["const $1 = computed$2(() => {", "\t$3", "});"],
+    "description": "Computed property"
+  },
+  "vuewatch": {
+    "prefix": "vuewatch",
+    "body": ["watch$1(($2) => {", "\t$3", "});"],
+    "description": "Watch function"
+  },
+  "vueonmounted": {
+    "prefix": "vueonmounted",
+    "body": ["onMounted$1(() => {", "\t$2", "});"],
+    "description": "onMounted"
+  },
+  "vueonbeforemount": {
+    "prefix": "vueonbeforemount",
+    "body": ["onBeforeMount$1(() => {", "\t$2", "});"],
+    "description": "onBeforeMount"
+  },
+  "vueonbeforeupdate": {
+    "prefix": "vueonbeforeupdate",
+    "body": ["onBeforeUpdate$1(() => {", "\t$2", "});"],
+    "description": "onBeforeUpdate"
+  },
+  "vueonupdated": {
+    "prefix": "vueonupdated",
+    "body": ["onUpdated$1(() => {", "\t$2", "});"],
+    "description": "onUpdated"
+  },
+  "vueonactivated": {
+    "prefix": "vueonactivated",
+    "body": ["onActivated$1(() => {", "\t$2", "});"],
+    "description": "onActivated"
+  },
+  "vueondeactivated": {
+    "prefix": "vueondeactivated",
+    "body": ["onDeactivated$1(() => {", "\t$2", "});"],
+    "description": "onDeactivated"
+  }
+}

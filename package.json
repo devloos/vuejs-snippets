@@ -1,0 +1,53 @@
+{
+  "name": "vue-snippets",
+  "displayName": "Vue js Snippets",
+  "description": "Vue js Snippets",
+  "author": "devlos",
+  "publisher": "devlos",
+  "icon": "assets/logo.png",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "keywords": [
+    "snippet",
+    "vue",
+    "vue 3"
+  ],
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devloos/vue-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/devloos/vue-snippets/issues",
+    "email": "18aguilerac@gmail.com"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/vue.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-attributes.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue-attributes.code-snippets"
+      }
+    ]
+  }
+}

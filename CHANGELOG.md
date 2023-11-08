@@ -1,3 +1,7 @@
+## [0.9.0]
+
+- added new keywords
+
 ## [0.8.0]
 
 - added `define props`, `provide`, `inject`, and `vmemo`

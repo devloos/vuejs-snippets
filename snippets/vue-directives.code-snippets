@@ -19,15 +19,15 @@
     "body": ["v-if=\"$1\""],
     "description": "v-if"
   },
-  "v-else-if": {
-    "prefix": "velseif",
-    "body": ["v-else-if=\"$1\""],
-    "description": "Expects: any. previous sibling element must have v-if or v-else-if."
-  },
   "v-else": {
     "prefix": "velse",
     "body": ["v-else"],
     "description": "Does not expect expression. previous sibling element must have v-if or v-else-if."
+  },
+  "v-else-if": {
+    "prefix": "velseif",
+    "body": ["v-else-if=\"$1\""],
+    "description": "Expects: any. previous sibling element must have v-if or v-else-if."
   },
   "v-for": {
     "prefix": "vfor",
@@ -48,6 +48,11 @@
     "prefix": "vmodel",
     "body": ["v-model=\"$1\""],
     "description": "Expects: varies based on value of form inputs element or output of components"
+  },
+  "v-slot": {
+    "prefix": "vslot",
+    "body": ["v-slot:$1"],
+    "description": "Expects name slot"
   },
   "v-memo": {
     "prefix": "vmemo",

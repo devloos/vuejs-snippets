@@ -1,3 +1,8 @@
+## [0.10.0]
+
+- added vue support for onMounted, onBeforeUnmount, onErrorCaptured, onRenderTracked, and onRenderTriggered
+- added template support for v-slot
+
 ## [0.9.0]
 
 - added new keywords

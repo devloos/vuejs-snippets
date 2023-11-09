@@ -10,7 +10,29 @@
       "\t\t$2",
       "\t</div>",
       "</template>\n",
-      "<style lang=\"$3\">",
+      "<style>",
+      "\t$4",
+      "</style>"
+    ],
+    "description": "vue init"
+  },
+  "vsfinit": {
+    "prefix": "vsfinit",
+    "body": [
+      "<script>",
+      "export default {",
+      "\tsetup() {",
+      "\t\t$1",
+      "\t\treturn {};",
+      "\t},",
+      "};",
+      "</script>\n",
+      "<template>",
+      "\t<div>",
+      "\t\t$2",
+      "\t</div>",
+      "</template>\n",
+      "<style>",
       "\t$4",
       "</style>"
     ],
@@ -49,17 +71,27 @@
   "vueprovide": {
     "prefix": "vueprovide",
     "body": ["provide('$1', $2);"],
-    "description": "Vue provide"
+    "description": "provide"
   },
   "vueinject": {
     "prefix": "vueinject",
     "body": ["const $1 = inject('$2');"],
-    "description": "Vue inject"
+    "description": "inject"
   },
   "vueonmounted": {
     "prefix": "vueonmounted",
     "body": ["onMounted$1(() => {", "\t$2", "});"],
     "description": "onMounted"
+  },
+  "vueonupdated": {
+    "prefix": "vueonupdated",
+    "body": ["onUpdated$1(() => {", "\t$2", "});"],
+    "description": "onUpdated"
+  },
+  "vueonunmounted": {
+    "prefix": "vueonunmounted",
+    "body": ["onUnmounted$1(() => {", "\t$2", "});"],
+    "description": "onUnmounted"
   },
   "vueonbeforemount": {
     "prefix": "vueonbeforemount",
@@ -71,10 +103,25 @@
     "body": ["onBeforeUpdate$1(() => {", "\t$2", "});"],
     "description": "onBeforeUpdate"
   },
-  "vueonupdated": {
-    "prefix": "vueonupdated",
-    "body": ["onUpdated$1(() => {", "\t$2", "});"],
-    "description": "onUpdated"
+  "vueonbeforeunmount": {
+    "prefix": "vueonbeforeunmount",
+    "body": ["onBeforeUnmount$1(() => {", "\t$2", "});"],
+    "description": "onBeforeUnmount"
+  },
+  "vueonerrorcaptured": {
+    "prefix": "vueonerrorcaptured",
+    "body": ["onErrorCaptured$1(() => {", "\t$2", "});"],
+    "description": "onErrorCaptured"
+  },
+  "vueonrendertracked": {
+    "prefix": "vueonrendertracked",
+    "body": ["onRenderTracked$1(() => {", "\t$2", "});"],
+    "description": "onRenderTracked"
+  },
+  "vueonrendertriggered": {
+    "prefix": "vueonrendertriggered",
+    "body": ["onRenderTriggered$1(() => {", "\t$2", "});"],
+    "description": "onRenderTriggered"
   },
   "vueonactivated": {
     "prefix": "vueonactivated",

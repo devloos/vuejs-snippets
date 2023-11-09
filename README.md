@@ -19,47 +19,54 @@ Short and simple vue snippets!
 
 ### Vue
 
-| Snippet       | Purpose                                                |
-| ------------- | ------------------------------------------------------ |
-| `vueinit`     | Single file component with script, template, and style |
-| `vuescript`   | vue script tag                                         |
-| `vuetemplate` | vue template tag                                       |
-| `vuestyle`    | vue style tag                                          |
+| Snippet       | Purpose                                                               |
+| ------------- | --------------------------------------------------------------------- |
+| `vueinit`     | Single file component with script setup, template, and style          |
+| `vsfinit`     | Single file component with script setup function, template, and style |
+| `vuescript`   | vue script tag                                                        |
+| `vuetemplate` | vue template tag                                                      |
+| `vuestyle`    | vue style tag                                                         |
 
 ### Script
 
-| Snippet             | Purpose                       |
-| ------------------- | ----------------------------- |
-| `vuedefineprops`    | define properties             |
-| `vuecomputed`       | computed property             |
-| `vuewatch`          | watcher                       |
-| `vueprovide`        | vue provide                   |
-| `vueinject`         | vue inject                    |
-| `vueonmounted`      | mounted lifecycle method      |
-| `vueonbeforemount`  | beforeMount lifecycle method  |
-| `vueonbeforeupdate` | beforeUpdate lifecycle method |
-| `vueonupdated`      | updated lifecycle method      |
-| `vueonactivated`    | keepalive lifecycle method    |
-| `vueondeactivated`  | keepalive lifecycle method    |
+| Snippet                | Purpose                                                                 |
+| ---------------------- | ----------------------------------------------------------------------- |
+| `vuedefineprops`       | define properties                                                       |
+| `vuecomputed`          | computed property                                                       |
+| `vuewatch`             | watcher                                                                 |
+| `vueprovide`           | vue provide                                                             |
+| `vueinject`            | vue inject                                                              |
+| `vueonmounted`         | mounted lifecycle method                                                |
+| `vueonunmounted`       | mounted lifecycle method                                                |
+| `vueonbeforemount`     | beforeMount lifecycle method                                            |
+| `vueonbeforeunmount`   | beforeMount lifecycle method                                            |
+| `vueonbeforeupdate`    | beforeUpdate lifecycle method                                           |
+| `vueonupdated`         | updated lifecycle method                                                |
+| `vueonactivated`       | keepalive lifecycle method                                              |
+| `vueondeactivated`     | keepalive lifecycle method                                              |
+| `vueonrendertracked`   | called when a reactive dependency has been tracked                      |
+| `vueonrendertriggered` | reactive dependency triggers the component's render effect to be re-run |
 
 ### Template
 
-| Snippet   | Purpose                           |
-| --------- | --------------------------------- |
-| `vfor`    | v-for directive                   |
-| `vmodel`  | Semantic v-model directive        |
-| `von`     | v-on click handler with arguments |
-| `vhtml`   | inserting html                    |
-| `vshow`   | setting element to display one    |
-| `vif`     | removing or adding element to dom |
-| `velseif` | use along side v-if               |
-| `vtext`   | v-text                            |
-| `vbind`   | binding onto attributes           |
-| `vpre`    | v-pre                             |
-| `vcloak`  | v-cloak                           |
-| `vmemo`   | memoize array                     |
-| `vonce`   | evaluate only once                |
-| `vkey`    | key                               |
-| `vref`    | reference to a dom element        |
+| Snippet   | Purpose                                             |
+| --------- | --------------------------------------------------- |
+| `vtext`   | v-text                                              |
+| `vhtml`   | inserting html                                      |
+| `vshow`   | setting element to display one                      |
+| `vif`     | removing or adding element to dom                   |
+| `velse`   | v-else                                              |
+| `velseif` | use along side v-if                                 |
+| `vfor`    | v-for directive                                     |
+| `von`     | v-on click handler with arguments                   |
+| `vbind`   | binding onto attributes                             |
+| `vmodel`  | Semantic v-model directive                          |
+| `vslot`   | denotes named slot                                  |
+| `vpre`    | skip compilation for this element and its children  |
+| `vonce`   | evaluate only once                                  |
+| `vmemo`   | memoize data                                        |
+| `vcloak`  | Used to hide un-compiled template until it is ready |
+| `vkey`    | key                                                 |
+| `vref`    | reference to a dom element                          |
 
 **Enjoy!**

@@ -1,7 +1,7 @@
 {
   "name": "vuejs-snippets",
   "displayName": "Vuejs Snippets",
-  "description": "Vuejs snippets to increase your productivity",
+  "description": "Vuejs snippets to increase your productivity (supports vue 3)",
   "author": "devlos",
   "publisher": "devlos",
   "icon": "assets/logo.png",
@@ -11,13 +11,14 @@
   },
   "keywords": [
     "snippet",
-    "vue",
+    "snippets",
     "vue snippets",
-    "vue 3",
     "vue 3 snippets",
-    "vuejs",
     "vuejs snippets",
-    "vue js snippets"
+    "vue js snippets",
+    "vue",
+    "vue 3",
+    "vuejs"
   ],
   "categories": [
     "Programming Languages",

@@ -11,7 +11,7 @@ Short and simple vue snippets!
 - Contributions are welcome [github](https://github.com/devloos/vuejs-snippets)
 - If you're submitting a code snippet, it's essential to include corresponding documentation within the tables in the README. Please note that we won't be able to accept your pull request without this documentation. Thank you for your understanding!
 
-![vuejs-snippet-demo](./assets/vuejs-snippets-demo.gif)
+<video src="./assets/vuejs-snippets-demo.mp4" autoplay muted />
 
 ## Installation
 

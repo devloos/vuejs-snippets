@@ -5,7 +5,7 @@
   "author": "devlos",
   "publisher": "devlos",
   "icon": "assets/logo.png",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "engines": {
     "vscode": "^1.5.0"
   },

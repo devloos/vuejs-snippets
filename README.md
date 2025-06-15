@@ -22,10 +22,21 @@ Short and simple vue snippets!
 | Snippet       | Purpose                                                               |
 | ------------- | --------------------------------------------------------------------- |
 | `vueinit`     | Single file component with script setup, template, and style          |
-| `vsfinit`     | Single file component with script setup function, template, and style |
+| `vuesfinit`   | Single file component with script setup function, template, and style |
 | `vuescript`   | vue script tag                                                        |
 | `vuetemplate` | vue template tag                                                      |
 | `vuestyle`    | vue style tag                                                         |
+
+### TypeScript Vue
+
+| Snippet            | Purpose                                           |
+| ------------------ | ------------------------------------------------- |
+| `vuetsinit`        | TypeScript Vue SFC with script setup              |
+| `vuetsdefineprops` | TypeScript define props with interface            |
+| `vuetsdefineemits` | TypeScript define emits with type interface       |
+| `vuetsref`         | TypeScript ref with type annotation               |
+| `vuetsreactive`    | TypeScript reactive state with interface          |
+| `vuetscomputed`    | TypeScript computed property with type annotation |
 
 ### Script
 

@@ -16,8 +16,8 @@
     ],
     "description": "vue init"
   },
-  "vsfinit": {
-    "prefix": "vsfinit",
+  "vuesfinit": {
+    "prefix": "vuesfinit",
     "body": [
       "<script>",
       "export default {",
@@ -36,7 +36,7 @@
       "\t$4",
       "</style>"
     ],
-    "description": "vue init"
+    "description": "vue setup function init"
   },
   "vuescript": {
     "prefix": "vuescript",
@@ -60,12 +60,12 @@
   },
   "vuecomputed": {
     "prefix": "vuecomputed",
-    "body": ["const $1 = computed$2(() => {", "\t$3", "});"],
+    "body": ["const $1 = computed(() => {", "\t$3", "});"],
     "description": "Computed property"
   },
   "vuewatch": {
     "prefix": "vuewatch",
-    "body": ["watch$1(($2) => {", "\t$3", "});"],
+    "body": ["watch(($1) => {", "\t$2", "});"],
     "description": "Watch function"
   },
   "vueprovide": {
@@ -80,57 +80,121 @@
   },
   "vueonmounted": {
     "prefix": "vueonmounted",
-    "body": ["onMounted$1(() => {", "\t$2", "});"],
+    "body": ["onMounted(() => {", "\t$1", "});"],
     "description": "onMounted"
   },
   "vueonupdated": {
     "prefix": "vueonupdated",
-    "body": ["onUpdated$1(() => {", "\t$2", "});"],
+    "body": ["onUpdated(() => {", "\t$1", "});"],
     "description": "onUpdated"
   },
   "vueonunmounted": {
     "prefix": "vueonunmounted",
-    "body": ["onUnmounted$1(() => {", "\t$2", "});"],
+    "body": ["onUnmounted(() => {", "\t$1", "});"],
     "description": "onUnmounted"
   },
   "vueonbeforemount": {
     "prefix": "vueonbeforemount",
-    "body": ["onBeforeMount$1(() => {", "\t$2", "});"],
+    "body": ["onBeforeMount(() => {", "\t$1", "});"],
     "description": "onBeforeMount"
   },
   "vueonbeforeupdate": {
     "prefix": "vueonbeforeupdate",
-    "body": ["onBeforeUpdate$1(() => {", "\t$2", "});"],
+    "body": ["onBeforeUpdate(() => {", "\t$1", "});"],
     "description": "onBeforeUpdate"
   },
   "vueonbeforeunmount": {
     "prefix": "vueonbeforeunmount",
-    "body": ["onBeforeUnmount$1(() => {", "\t$2", "});"],
+    "body": ["onBeforeUnmount(() => {", "\t$1", "});"],
     "description": "onBeforeUnmount"
   },
   "vueonerrorcaptured": {
     "prefix": "vueonerrorcaptured",
-    "body": ["onErrorCaptured$1(() => {", "\t$2", "});"],
+    "body": ["onErrorCaptured(() => {", "\t$1", "});"],
     "description": "onErrorCaptured"
   },
   "vueonrendertracked": {
     "prefix": "vueonrendertracked",
-    "body": ["onRenderTracked$1(() => {", "\t$2", "});"],
+    "body": ["onRenderTracked(() => {", "\t$1", "});"],
     "description": "onRenderTracked"
   },
   "vueonrendertriggered": {
     "prefix": "vueonrendertriggered",
-    "body": ["onRenderTriggered$1(() => {", "\t$2", "});"],
+    "body": ["onRenderTriggered(() => {", "\t$1", "});"],
     "description": "onRenderTriggered"
   },
   "vueonactivated": {
     "prefix": "vueonactivated",
-    "body": ["onActivated$1(() => {", "\t$2", "});"],
+    "body": ["onActivated(() => {", "\t$1", "});"],
     "description": "onActivated"
   },
   "vueondeactivated": {
     "prefix": "vueondeactivated",
-    "body": ["onDeactivated$1(() => {", "\t$2", "});"],
+    "body": ["onDeactivated(() => {", "\t$1", "});"],
     "description": "onDeactivated"
+  },
+  "vuetsinit": {
+    "prefix": "vuetsinit",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "\t$1",
+      "</script>\n",
+      "<template>",
+      "\t<div>",
+      "\t\t$2",
+      "\t</div>",
+      "</template>\n",
+      "<style>",
+      "\t$4",
+      "</style>"
+    ],
+    "description": "Vue TypeScript single file component with script setup"
+  },
+  "vuetsdefineprops": {
+    "prefix": "vuetsdefineprops",
+    "body": [
+      "interface Props {",
+      "\t$1: $2",
+      "}",
+      "",
+      "const props = defineProps<Props>();"
+    ],
+    "description": "Vue TypeScript define props with type interface"
+  },
+  "vuetsdefineemits": {
+    "prefix": "vuetsdefineemits",
+    "body": [
+      "const emit = defineEmits<{",
+      "\t$1: [$2]",
+      "}>();"
+    ],
+    "description": "Vue TypeScript define emits with type interface"
+  },
+  "vuetsref": {
+    "prefix": "vuetsref",
+    "body": ["const $1 = ref<$2>($3);"],
+    "description": "Vue TypeScript ref with type"
+  },
+  "vuetsreactive": {
+    "prefix": "vuetsreactive",
+    "body": [
+      "interface $1State {",
+      "\t$2: $3",
+      "}",
+      "",
+      "const state = reactive<$1State>({",
+      "\t$2: $4",
+      "});"
+    ],
+    "description": "Vue TypeScript reactive state with interface"
+  },
+  "vuetscomputed": {
+    "prefix": "vuetscomputed",
+    "body": [
+      "const $1 = computed<$2>(() => {",
+      "\t$3",
+      "});"
+    ],
+    "description": "Vue TypeScript computed property with type"
   }
 }
